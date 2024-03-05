@@ -192,7 +192,7 @@ MatchmakingSubsystem.cpp:
     	}
     }
     
-    void UHelion_MatchmakingSubsystem::PollTicketStatus()
+    void UMatchmakingSubsystem::PollTicketStatus()
     {
     	if (GetTicketStatus() && !PollTicketStatusTimerHandle.IsValid())
     	{
